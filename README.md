@@ -6,4 +6,4 @@
    **t,** time period in years <br/>
    **r,** annual rate of interest <br/>
 **Output** <br/><br/>
-   **simple interes**t = p*t*r
+   **simple interes**t = p.t.r
