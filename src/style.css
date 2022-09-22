@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, blue, pink);
+    font-family: arial;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maindiv{
+    background: rgba(255,255,255,.5);
+    width: 600px;
+    padding: 40px;
+    border-radius: 25px;
+    position:relative;
+}
+
+.header{
+    color: gray;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer{
+    color: black;
+    margin-top: 2rem;
+}
+
+.cal_form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    margin-top: 1rem;
+    margin-left: 11rem;
+
+}
+
+
+.cal_form input[type = range]{
+    margin-left: 2.5rem;
+}
+
+.cal_form input[type = number]{
+    background: rgb(198, 198, 198);
+    margin-left: 2.5rem;
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+    transition: .5s;
+    padding: 3px;
+}
+
+.cal_form input[type = number]:focus{
+    background: white;
+}
+.cal_form select{
+    margin-left: 0.5rem;
+    height: 20px;
+}
+.maindiv button{
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    background: black;
+    transition: background .5s;
+}
+
+.maindiv button:hover{
+    background-color: rgba(0,0,0, .85);
+    cursor: pointer;
+}
